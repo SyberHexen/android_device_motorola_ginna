@@ -36,8 +36,8 @@ PRODUCT_AAPT_PREF_CONFIG := xhdpi
 PRODUCT_AAPT_PREBUILT_DPI := xhdpi hdpi
 
 # Init
-PRODUCT_PACKAGES += \
-    init.channel.rc
+#PRODUCT_PACKAGES += \
+#    init.channel.rc \
 #    init.audio.specified_para.sh
 
 # Audio
