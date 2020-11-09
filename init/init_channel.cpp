@@ -47,7 +47,6 @@ std::vector<std::string> ro_props_default_source_order = {
     "odm.",
     "product.",
     "system.",
-    "system_ext.",
     "vendor.",
 };
 
