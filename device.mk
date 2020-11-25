@@ -70,7 +70,8 @@ PRODUCT_COPY_FILES += \
 # Init
 PRODUCT_PACKAGES += \
     init.ginna.rc \
-    init.mmi.touch.sh
+    init.mmi.touch.sh \
+    fstab_ramdisk.qcom
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
