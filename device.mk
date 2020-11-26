@@ -69,7 +69,8 @@ PRODUCT_COPY_FILES += \
 
 # Init
 PRODUCT_PACKAGES += \
-    init.ginna.rc
+    init.ginna.rc \
+    init.mmi.touch.sh
 
 # LiveDisplay
 PRODUCT_PACKAGES += \
