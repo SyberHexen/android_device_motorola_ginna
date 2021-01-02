@@ -28,4 +28,5 @@
 service vendor.mmi-touch-sh /vendor/bin/init.mmi.touch.sh
     class late_start
     user root
+    group system
     oneshot
