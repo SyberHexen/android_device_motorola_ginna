@@ -1,5 +1,0 @@
-service audiopara-sh /vendor/bin/init.audio.specified_para.sh
-#    seclabel u:r:init_hw:s0
-    class core
-    user root
-    oneshot

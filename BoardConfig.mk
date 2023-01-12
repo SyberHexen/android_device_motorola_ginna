@@ -17,11 +17,11 @@
 # Inherit from motorola sdm632-common
 -include device/motorola/sdm632-common/BoardConfigCommon.mk
 
-DEVICE_PATH := device/motorola/channel
+DEVICE_PATH := device/motorola/ginna
 
 # Assertions
-TARGET_BOARD_INFO_FILE := device/motorola/channel/board-info.txt
-TARGET_OTA_ASSERT_DEVICE := channel
+TARGET_BOARD_INFO_FILE := device/motorola/ginna/board-info.txt
+TARGET_OTA_ASSERT_DEVICE := ginna
 
 # Display
 TARGET_SCREEN_DENSITY := 320
@@ -30,7 +30,7 @@ TARGET_SCREEN_DENSITY := 320
 DEVICE_MANIFEST_FILE += $(DEVICE_PATH)/manifest.xml
 
 # Kernel
-TARGET_KERNEL_CONFIG := channel_defconfig
+TARGET_KERNEL_CONFIG := ginna_defconfig
 BOARD_RAMDISK_USE_XZ := true
 
 # Low Memory Devices
@@ -48,4 +48,4 @@ BOARD_SEPOLICY_DIRS += $(DEVICE_PATH)/sepolicy/vendor
 PRODUCT_SOONG_NAMESPACES += $(DEVICE_PATH)
 
 # inherit from the proprietary version
-include vendor/motorola/channel/BoardConfigVendor.mk
+include vendor/motorola/ginna/BoardConfigVendor.mk

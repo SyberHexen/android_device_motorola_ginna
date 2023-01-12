@@ -8,7 +8,7 @@
 
 set -e
 
-export DEVICE=channel
+export DEVICE=ginna
 export DEVICE_COMMON=sdm632-common
 export VENDOR=motorola
 

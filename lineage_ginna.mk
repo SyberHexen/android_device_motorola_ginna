@@ -26,14 +26,14 @@ $(call inherit-product, vendor/lineage/config/common_full_phone.mk)
 $(call inherit-product, $(LOCAL_PATH)/device.mk)
 
 PRODUCT_BRAND := motorola
-PRODUCT_DEVICE := channel
+PRODUCT_DEVICE := ginna
 PRODUCT_MANUFACTURER := motorola
-PRODUCT_NAME := lineage_channel
-PRODUCT_MODEL := moto g(7) play
+PRODUCT_NAME := lineage_ginna
+PRODUCT_MODEL := moto e
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-        PRODUCT_NAME=channel \
-        PRIVATE_BUILD_DESC="channel-user 9 PPY29.148-140 687ae release-keys"
+        PRODUCT_NAME=ginna \
+        PRIVATE_BUILD_DESC="ginna-user 10 QPGS30.82-147-10-4 db110 release-keys"
 
 # Set BUILD_FINGERPRINT variable to be picked up by both system and vendor build.prop
-BUILD_FINGERPRINT := motorola/channel_retail/channel:9/PPY29.148-140/687ae:user/release-keys
+BUILD_FINGERPRINT := motorola/ginna_retail/ginna:10/QPGS30.82-147-10-4/db110:user/release-keys

@@ -1,4 +1,4 @@
-# All unpinned blobs below are extracted from Channel QPYS30.85-23-8-2
+# All unpinned blobs below are extracted from Ginna QPGS30.82-147-10-4
 
 # Audio - Prebuilt
 vendor/lib/libadm.so
@@ -12,30 +12,28 @@ vendor/lib/soundfx/libmmieffectswrapper.so
 vendor/lib/vndk/libtinyalsa.so
 
 # Audio - ACDB
-vendor/etc/acdbdata/common/Bluetooth_cal.acdb
-vendor/etc/acdbdata/common/General_cal.acdb
-vendor/etc/acdbdata/common/Global_cal.acdb
-vendor/etc/acdbdata/common/Handset_cal.acdb
-vendor/etc/acdbdata/common/Hdmi_cal.acdb
-vendor/etc/acdbdata/common/Headset_cal.acdb
-vendor/etc/acdbdata/common/Speaker_cal.acdb
+vendor/etc/acdbdata/na/Bluetooth_cal.acdb
+vendor/etc/acdbdata/na/General_cal.acdb
+vendor/etc/acdbdata/na/Global_cal.acdb
+vendor/etc/acdbdata/na/Handset_cal.acdb
+vendor/etc/acdbdata/na/Hdmi_cal.acdb
+vendor/etc/acdbdata/na/Headset_cal.acdb
+vendor/etc/acdbdata/na/Speaker_cal.acdb
 
 # Audio - ADSP
-vendor/lib/rfsa/adsp/tas2560_TI_0.bin
-vendor/lib/rfsa/adsp/tas2560_TI_1.bin
-vendor/lib/rfsa/adsp/capi_v2_smartAmp_TAS25xx.so.1
+vendor/lib/rfsa/adsp/libFastRPC_AUE_Forward_skel.so
+vendor/lib/rfsa/adsp/libFastRPC_UTF_Forward_Qtc2_skel.so
 
-# Camera
-vendor/lib/libmot_gpu_mapper.so
+# Audio - Firmware
+vendor/firmware/aw882xx_rcv_reg.bin
+vendor/firmware/aw882xx_spk_reg.bin
 
 # Camera
 vendor/lib/hw/camera.msm8953.so
 vendor/lib/libhal_dbg.so
 vendor/lib/libactuator_dw9763.so
-vendor/lib/libactuator_dw9767.so
-vendor/lib/libactuator_lc898217xh.so
+vendor/lib/libactuator_mot_dw9763.so
 vendor/lib/libflash_pmic.so
-vendor/lib/libgralloc1.so
 vendor/lib/libjpegdhw.so
 vendor/lib/libjpegdmahw.so
 vendor/lib/libjpegehw.so
@@ -47,7 +45,7 @@ vendor/lib/libmmqjpeg_codec.so
 vendor/lib/libmmqjpegdma.so
 vendor/lib/libmot_afd.so
 vendor/lib/libmot_lux_standardization.so
-vendor/lib/lib_motsensorlistener.so
+vendor/lib/libmotimager_utils.so
 vendor/lib/libqomx_core.so
 vendor/lib/libqomx_jpegdec.so
 vendor/lib/libqomx_jpegenc_pipe.so
@@ -55,8 +53,52 @@ vendor/lib/libqomx_jpegenc.so
 vendor/lib/libremosaic_daemon.so
 vendor/lib/libcdsprpc.so
 vendor/lib/libdepthmapwrapper.so
+vendor/lib/libseemore.so
 
 # Camera - Chromatix
+vendor/etc/camera/dual_golden.bin
+vendor/etc/camera/camera_config.xml
+vendor/etc/camera/mot_hi556_chromatix.xml
+vendor/etc/camera/mot_ov2180_chromatix.xml
+vendor/etc/camera/mot_s5k3l6_chromatix.xml
+vendor/etc/camera/mot_s5k5e9_gin_chromatix.xml
+vendor/lib/libchromatix_hi556_common.so
+vendor/lib/libchromatix_hi556_cpp_liveshot.so
+vendor/lib/libchromatix_hi556_cpp_preview.so
+vendor/lib/libchromatix_hi556_cpp_snapshot.so
+vendor/lib/libchromatix_hi556_cpp_snapshot_custom.so
+vendor/lib/libchromatix_hi556_cpp_snapshot_downscale.so
+vendor/lib/libchromatix_hi556_cpp_video_full.so
+vendor/lib/libchromatix_hi556_postproc.so
+vendor/lib/libchromatix_hi556_snapshot.so
+vendor/lib/libchromatix_hi556_video_full.so
+vendor/lib/libchromatix_hi556_zsl_preview_3a.so
+vendor/lib/libchromatix_hi556_zsl_video_3a.so
+vendor/lib/libchromatix_mot_ov02a_gin_common.so
+vendor/lib/libchromatix_mot_ov02a_gin_cpp_liveshot.so
+vendor/lib/libchromatix_mot_ov02a_gin_cpp_preview.so
+vendor/lib/libchromatix_mot_ov02a_gin_cpp_snapshot.so
+vendor/lib/libchromatix_mot_ov02a_gin_cpp_snapshot_custom.so
+vendor/lib/libchromatix_mot_ov02a_gin_cpp_snapshot_downscale.so
+vendor/lib/libchromatix_mot_ov02a_gin_cpp_video_full.so
+vendor/lib/libchromatix_mot_ov02a_gin_postproc.so
+vendor/lib/libchromatix_mot_ov02a_gin_snapshot.so
+vendor/lib/libchromatix_mot_ov02a_gin_video_full.so
+vendor/lib/libchromatix_mot_ov02a_gin_zsl_preview_3a.so
+vendor/lib/libchromatix_mot_ov02a_gin_zsl_video_3a.so
+vendor/lib/libchromatix_mot_ov2180_common.so
+vendor/lib/libchromatix_mot_ov2180_cpp_liveshot.so
+vendor/lib/libchromatix_mot_ov2180_cpp_preview.so
+vendor/lib/libchromatix_mot_ov2180_cpp_snapshot.so
+vendor/lib/libchromatix_mot_ov2180_cpp_snapshot_custom.so
+vendor/lib/libchromatix_mot_ov2180_cpp_snapshot_downscale.so
+vendor/lib/libchromatix_mot_ov2180_cpp_video_full.so
+vendor/lib/libchromatix_mot_ov2180_postproc.so
+vendor/lib/libchromatix_mot_ov2180_preview.so
+vendor/lib/libchromatix_mot_ov2180_snapshot.so
+vendor/lib/libchromatix_mot_ov2180_video_full.so
+vendor/lib/libchromatix_mot_ov2180_zsl_preview_3a.so
+vendor/lib/libchromatix_mot_ov2180_zsl_video_3a.so
 vendor/lib/libchromatix_mot_s5k3l6_common.so
 vendor/lib/libchromatix_mot_s5k3l6_cpp_hfr_120.so
 vendor/lib/libchromatix_mot_s5k3l6_cpp_hfr_60.so
@@ -64,6 +106,7 @@ vendor/lib/libchromatix_mot_s5k3l6_cpp_liveshot.so
 vendor/lib/libchromatix_mot_s5k3l6_cpp_preview.so
 vendor/lib/libchromatix_mot_s5k3l6_cpp_snapshot.so
 vendor/lib/libchromatix_mot_s5k3l6_cpp_snapshot_custom.so
+vendor/lib/libchromatix_mot_s5k3l6_cpp_snapshot_downscale.so
 vendor/lib/libchromatix_mot_s5k3l6_cpp_video_full.so
 vendor/lib/libchromatix_mot_s5k3l6_hfr_120.so
 vendor/lib/libchromatix_mot_s5k3l6_hfr_120_3a.so
@@ -74,20 +117,30 @@ vendor/lib/libchromatix_mot_s5k3l6_snapshot.so
 vendor/lib/libchromatix_mot_s5k3l6_video_full.so
 vendor/lib/libchromatix_mot_s5k3l6_zsl_preview_3a.so
 vendor/lib/libchromatix_mot_s5k3l6_zsl_video_3a.so
-vendor/lib/libchromatix_s5k4h7_channel_common.so
-vendor/lib/libchromatix_s5k4h7_channel_cpp_hfr_120.so
-vendor/lib/libchromatix_s5k4h7_channel_cpp_liveshot.so
-vendor/lib/libchromatix_s5k4h7_channel_cpp_preview.so
-vendor/lib/libchromatix_s5k4h7_channel_cpp_snapshot.so
-vendor/lib/libchromatix_s5k4h7_channel_cpp_snapshot_custom.so
-vendor/lib/libchromatix_s5k4h7_channel_cpp_video_full.so
-vendor/lib/libchromatix_s5k4h7_channel_hfr_120.so
-vendor/lib/libchromatix_s5k4h7_channel_hfr_120_3a.so
-vendor/lib/libchromatix_s5k4h7_channel_postproc.so
-vendor/lib/libchromatix_s5k4h7_channel_snapshot.so
-vendor/lib/libchromatix_s5k4h7_channel_video_full.so
-vendor/lib/libchromatix_s5k4h7_channel_zsl_preview_3a.so
-vendor/lib/libchromatix_s5k4h7_channel_zsl_video_3a.so
+vendor/lib/libchromatix_mot_s5k5e9_common.so
+vendor/lib/libchromatix_mot_s5k5e9_cpp_liveshot.so
+vendor/lib/libchromatix_mot_s5k5e9_cpp_preview.so
+vendor/lib/libchromatix_mot_s5k5e9_cpp_snapshot.so
+vendor/lib/libchromatix_mot_s5k5e9_cpp_snapshot_custom.so
+vendor/lib/libchromatix_mot_s5k5e9_cpp_snapshot_downscale.so
+vendor/lib/libchromatix_mot_s5k5e9_cpp_video_full.so
+vendor/lib/libchromatix_mot_s5k5e9_gin_common.so
+vendor/lib/libchromatix_mot_s5k5e9_gin_cpp_liveshot.so
+vendor/lib/libchromatix_mot_s5k5e9_gin_cpp_preview.so
+vendor/lib/libchromatix_mot_s5k5e9_gin_cpp_snapshot.so
+vendor/lib/libchromatix_mot_s5k5e9_gin_cpp_snapshot_custom.so
+vendor/lib/libchromatix_mot_s5k5e9_gin_cpp_snapshot_downscale.so
+vendor/lib/libchromatix_mot_s5k5e9_gin_cpp_video_full.so
+vendor/lib/libchromatix_mot_s5k5e9_gin_postproc.so
+vendor/lib/libchromatix_mot_s5k5e9_gin_snapshot.so
+vendor/lib/libchromatix_mot_s5k5e9_gin_video_full.so
+vendor/lib/libchromatix_mot_s5k5e9_gin_zsl_preview_3a.so
+vendor/lib/libchromatix_mot_s5k5e9_gin_zsl_video_3a.so
+vendor/lib/libchromatix_mot_s5k5e9_postproc.so
+vendor/lib/libchromatix_mot_s5k5e9_snapshot.so
+vendor/lib/libchromatix_mot_s5k5e9_video_full.so
+vendor/lib/libchromatix_mot_s5k5e9_zsl_preview_3a.so
+vendor/lib/libchromatix_mot_s5k5e9_zsl_video_3a.so
 
 # Camera - mmcamera
 vendor/lib/libmmcamera2_c2d_module.so
@@ -114,6 +167,7 @@ vendor/lib/libmmcamera_eztune_module.so
 vendor/lib/libmmcamera_facedetection_lib.so
 vendor/lib/libmmcamera_faceproc.so
 vendor/lib/libmmcamera_faceproc2.so
+vendor/lib/libmmcamera_gin_hi556_eeprom.so
 vendor/lib/libmmcamera_hdr_gb_lib.so
 vendor/lib/libmmcamera_imglib.so
 vendor/lib/libmmcamera_imglib_faceproc_adspstub.so
@@ -153,17 +207,20 @@ vendor/lib/libmmcamera_isp_sub_module.so
 vendor/lib/libmmcamera_isp_template.so
 vendor/lib/libmmcamera_isp_wb40.so
 vendor/lib/libmmcamera_mot_dw9763_eeprom.so
-vendor/lib/libmmcamera_mot_dw9767_eeprom.so
-vendor/lib/libmmcamera_mot_gt24p64b_eeprom.so
+vendor/lib/libmmcamera_mot_hi556.so
+vendor/lib/libmmcamera_mot_ov2180.so
+vendor/lib/libmmcamera_mot_ov2180_eeprom.so
 vendor/lib/libmmcamera_mot_s5k3l6.so
+vendor/lib/libmmcamera_mot_s5k3l6_eeprom.so
+vendor/lib/libmmcamera_mot_s5k5e9.so
+vendor/lib/libmmcamera_mot_s5k5e9_eeprom.so
+vendor/lib/libmmcamera_mot_s5k5e9_gin_eeprom.so
 vendor/lib/libmmcamera_paaf_lib.so
 vendor/lib/libmmcamera_pdaf.so
 vendor/lib/libmmcamera_pdafcamif.so
 vendor/lib/libmmcamera_ppbase_module.so
 vendor/lib/libmmcamera_ppeiscore.so
 vendor/lib/libmmcamera_quadracfa.so
-vendor/lib/libmmcamera_s5k4h7.so
-vendor/lib/libmmcamera_s5k4h7_eeprom.so
 vendor/lib/libmmcamera_sat_test_lib.so
 vendor/lib/libmmcamera_stillmore_lib.so
 vendor/lib/libmmcamera_sw2d_lib.so
@@ -172,7 +229,6 @@ vendor/lib/libmmcamera_tintless_algo.so
 vendor/lib/libmmcamera_tintless_bg_pca_algo.so
 vendor/lib/libmmcamera_tuning.so
 vendor/lib/libmmcamera_tuning_lookup.so
-vendor/lib/libmmcamera_vstab_module.so
 
 # Camera - Firmware
 vendor/firmware/cpp_firmware_v1_10_0.fw
@@ -189,82 +245,78 @@ vendor/firmware/cpp_firmware_v1_8_0.fw
 
 # Camera - MotCamera2
 -product/priv-app/MotorolaSettingsProvider/MotorolaSettingsProvider.apk;PRESIGNED
+-product/app/MotCamera2AI/MotCamera2AI.apk
 
 # Camera - MotCamera2 - libs
-product/lib/libarcsoft_dualcam_refocus.so|3f1546036126fc6d266699a6e0cf62ddfb8f0a0f
-product/lib/libarcsoft_supernight.so|febeea328b771f24e8406031ef276545db91b243
-product/lib/libbg-postproc-jni.so|4634be4079bd93b20f3a57dda32fa76911f19760
-product/lib/libbs-depth.so|2f2c6125eaf1f5e7b62c3e0901d50dcd729ce5f3
-product/lib/libBulkSNPE.so|1f62c5a2a85f0a3c4ec8c5ac073ba9f25ecb8799
+product/lib/libarcsoft_bokehplus_image.so|e4bed2968a0587f271367f4dee2534c67df776aa
+product/lib/libarcsoft_dualcam_refocus.so|6243e03b1b2cd2fcf2a52fa48c88da79ee6c9c60
+product/lib/libarcsoft_picselfie_algorithm.so|90c3c7cc654d6662dda57c10f1a272bb2b481d90
+product/lib/libarcsoft_supernight.so|fe9065e0d607260b6a9c7bed1c4a7e7e69907f34
+product/lib/libarcsoft_superportrait.so|fefbfcd4dd307f468f34ce8755cfad2cad5b183a
+product/lib/libbg-postproc-jni.so|84c44d24c7352475d38645e3210a402a9ed0a5c7
+product/lib/libbs-depth.so|eeb76e3d790b8423a7ee03043dcb87569a241efc
 product/lib/libcalculator_domains.so|6033ada7a77eeb4816ad116a75bf2ddd96fda904
 product/lib/libcalculator.so|61f16fcec94403c57f26844f2d58d1eed82d4bc1
-product/lib/libcamerax_extension_jni.so|692383bb8784295d56cb8cc88098a84690db4e8f
+product/lib/libcamerax_extension_jni.so|5e5b5410ca1099ed6fb2a1298d311f7d7a00f56c
 product/lib/libc++_shared.so|17ba2ce76ecf47e5be81664d6ba9b8dedcea15ee
 product/lib/libc++.so|3c71f37f2c460cb36eb8ca5afd03fdbd42771320
 product/lib/libfn-beauty-vfb-ASIA.so|f8ea84907ef7602a3a5bfe311c0a92a979f45511
-product/lib/libfn-beauty-vfb-channel_ASIA.so|aa401f4c875a15fb2d25b63ac27397bb0f4d835a
-product/lib/libfn-beauty-vfb-channel_LATAM.so|e72bce6fe85378fb48b1cb48fd2b03a43df3bb83
-product/lib/libfn-beauty-vfb-channel_US.so|259c222f636cd7439a5b18db1834b9f56a201e4f
 product/lib/libfn-beauty-vfb-LATAM.so|78dda101932805f68d6267b7723fd4f0a65d2429
 product/lib/libfn-beauty-vfb-US.so|958194d14ead4117980b09eea0901480b84f8669
 product/lib/libFNVfbEngineHAL.so|04f50ed9d90cd784af4f7cd99ac1801b61b6f7c4
 product/lib/libgif.so|94ebd9d368ea9369e40c1d34ed982f56ea63ce87
-product/lib/libhta.so|24a7c5a9db9b286f332999c175237d25788b7259
-product/lib/libjpeg.so|3127063fc679057534b1c29e95abf954b3b06bad
+product/lib/libhta.so|71f3a49584b89a5e8f1f6628ad724403fd8304f2
+product/lib/libjpeg.so|8f46792cc5bb01a66a492c8a06615e739b2b11f2
 product/lib/liblenovo_panorama_qc.so|a1a68e1b5f2f4c3e987710b1280bf44a06b05eda
 product/lib/liblenovo_panorama.so|88c09488c3649564d367abbabf4a70b316be158f
+product/lib/libmcf-jni.so|b3134046b88f9c4cdc3426210d7fceeddbfc44f5
 product/lib/libmcf-qc-fd-offline_local.so|cf579b8beb62479c5423581b7501909e9388daaf
 product/lib/libmmcamera_faceproc2.so|97efe48c509b5b482bfc4d7ffc0351c27d1fe663
 product/lib/libmorpho_cinema_graph.so|a5143ac8fd274ece0c811c0f4ab2d797ef3a6c20
-product/lib/libmorpho_defocusface.so|48dc9b2750503cca8d51c40c7466b5a846d1c3ba
 product/lib/libmorpho_easy_hdr.so|ad7c2e73d09f5a2bf3bccf010631a1ac48d62e30
+product/lib/libmorpho_image_refiner_1_3_2_1.so|042f4c9f9b9a37c8d109a81d33fcd3ea198857f5
+product/lib/libmorpho_image_refiner_1_4_2.so|cd507f4deb4d550c26bb3e31bd0b1f806ca45785
 product/lib/libmorpho_image_stab5.so|ae84f1253fc84293326d65904804fbc350ba4d42
 product/lib/libmorpho_panorama_gp3.so|43f1bbf38a09b2292d1d8cb9a4d3cb4acda7f381
 product/lib/libmorpho_sensor_fusion.so|60a43eae6ae91ded094c2fb426aa92656638fbd2
-product/lib/libmot-cinemagraph-engine.so|a1c56f64f5b6edcd1835c0cf8ef550c69e57cbd7
-product/lib/libmot-remosaic-util.so|1baf2a66b63e711d08dedd827f13875f56608754
-product/lib/libmot-util.so|5e582cd0b1635c6370bbb82531047e23cfd0d47d
+product/lib/libmorpho_super_resolution.so|27c368e80966eec0c14efb1b078ca7f746873391
+product/lib/libmot-cinemagraph-engine.so|4145471fe11fd82c4418905e988dfec6619dfd06
+product/lib/libmot-remosaic-util.so|c73fcac4651e1f37dd29c6b83867f48f03ba206d
+product/lib/libmot-util.so|428ccd43a433c506f043f3eab2d4eba1fc4d0f94
 product/lib/libmpbase.so|e9dc5e7efeb124ff3d07bf8e4a59f37972d1a6d0
-product/lib/libmp-dis-v4.so|0ec08e2f4de98b62628f85a2fa2c95a36cdeda60
-product/lib/libmp-dis-v5.so|4f34d10d7166f59ed42c8af88e8dbb0617e1efa3
-product/lib/libmp-superres.so|41fe026494943e450787b32d051645c4a138e08b
-product/lib/libnnp.so|346bb505f29b3947a8e05b33abdcff680a42c90b
-product/lib/libPlatformValidatorShared.so|157f49c44405b547c32ea5331fb79a9b8ccbbdb4
-product/lib/libqc-clearsight.so|d0ecbdc50a127b5483d9938a897db33202b303e8
-product/lib/libqc-depth.so|5bd5f7e54fad6ca331845397bdcc58101e137f85
-product/lib/libqc-focus.so|f4b1aa4c1159ab614f981abaf59a64c980ae38bb
-product/lib/libqc-offline-fd-local.so|e626f3eb0fc877d65330a0c1f2440cfe51737dea
-product/lib/libqc-snpe.so|04aa2902cbb98e205405a101537f48947dc84e36
-product/lib/libsnpe_adsp.so|61dbcbdd38a704a357dea43644b28a8d965e7726
-product/lib/libsnpe_dsp_domains.so|fa33f8781fd0d9aabb7a6bc59d007620697665ff
-product/lib/libsnpe_dsp_domains_system.so|8cfb556162bbb53e41aee1dc55f06d13711f5305
-product/lib/libsnpe_dsp_domains_v2.so|e0e06ab3fcbd8abb170c743cd4bb9de865386926
-product/lib/libsnpe_dsp_domains_v2_system.so|ad1c72d4e3f0a6d58e7bbb7a1eceb7675fa8a05e
-product/lib/libSNPE_G.so|78d817d01403fda1885d11959e4384596b655eab
-product/lib/libSNPE.so|24c0f2cc648b469a3e7a78459866ccb422747a07
-product/lib/libsymphony-cpu.so|4871b8eddff1efd897c1da68a96698beab532045
-product/lib/libubifocus.so|6aa23369cf142d7387b8f2b50c3b01f5de5ace80
-product/lib/libyuv.so|e8d39ad4161bd242bbec3d35b650b6f63b2f49aa
+product/lib/libmp-dis-v4.so|1e851c2973b2dd3b2025a86021c0933090dd43bb
+product/lib/libmp-dis-v5.so|e7c633e1a98d6e2b255f5f4dc9a35204be5be072
+product/lib/libmp-superres.so|1415f44f58ab69220cda0775daa80f0f7d41d770
+product/lib/libPlatformValidatorShared.so|c8967a9bd6148d2468f66c7762f952d4c748d374
+product/lib/libqc-clearsight.so|d9f880b71536bc07a2e4df02bfeade4199947512
+product/lib/libqc-depth.so|6460d151624416b75abb42eea0ed58f01210b93d
+product/lib/libqc-focus.so|f637aacc5874b62afbda5cd0e5a95240e054d9ea
+product/lib/libqc-snpe.so|ecfe60141156c2bcb3b54ce257aa9b86885f22df
+product/lib/libsnpe_adsp.so|ae37e330eae8c5ba23f9304b2f76c8a942d19291
+product/lib/libsnpe_dsp_domains.so|31a67e8a456f42f8204011a5990d1a95a82dc595
+product/lib/libsnpe_dsp_domains_system.so|fce4c35c531538c95e1009407e64264a7f625e63
+product/lib/libsnpe_dsp_domains_v2.so|dacbc636b40ddf5cab78b47b14ea01cf9b23d698
+product/lib/libsnpe_dsp_domains_v2_system.so|3458067a35f39fa1bade3a082f41fdc1b0e1854a
+product/lib/libSNPE_G.so|bda720439f5bc6f6890b6aa5b1a63749a667f68e
+product/lib/libSNPE.so|b993b7d9725615232f71ad910be6499a20fe1254
+product/lib/libsymphony-cpu.so|b3d07ab3305d83b7caa2ab1b3db07e327bb742e0
 product/lib/libzxing-core.so|dedf0417a2879f11347fa24063fef4f128974887
 
 # Offmode charging
 vendor/bin/charge_only_mode
 
 # Display calib
-vendor/etc/qdcm_calib_data_mipi_mot_vid_djn_hd_568.xml|52c188b6ca0e407c68219f2e6ed9edfbb2c3e204
-vendor/etc/qdcm_calib_data_mipi_mot_vid_djn_hd_569.xml|79f59157fe8757860dcec2866fc5ca89cd7e143c
-vendor/etc/qdcm_calib_data_mipi_mot_vid_dsbj_hd_570.xml|6c291b7c35dc606e59e2d7b45b700827980d0ff8
+vendor/etc/qdcm_calib_data_mipi_mot_vid_hlt_hd_621.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_hd_620.xml
+vendor/etc/qdcm_calib_data_mipi_mot_vid_tianma_hd_621.xml
 
 # Display Panel Firmwares
-vendor/firmware/ilitek-dsbj-ILI9881-0B-6C-channel.bin
-vendor/firmware/novatek_ts-djn-NT36525-181116-08-channel.bin
-vendor/firmware/novatek_ts-djn-NT36525B-190103-146-channel.bin
+vendor/firmware/chipone-tianma-ICNL9911C-0288-0000-ginna.bin
+vendor/firmware/chipone-tianma-ICNL9911S-0125-0000-ginna.bin
+vendor/firmware/focaltech-hlt-ft8006s_aa-0b-0000-ginna.bin
+vendor/firmware/FT8006U_Pramboot.bin
 
 # Fingerprint
-vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-fpcservice
-vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service.rc
-vendor/lib/com.fingerprints.extension@1.0.so
-
-# Vibrator Firmwares
-vendor/firmware/aw8624_haptic.bin
-vendor/firmware/aw8624_rtp.bin
+vendor/bin/hw/android.hardware.biometrics.fingerprint@2.1-service-fpc
+vendor/etc/init/android.hardware.biometrics.fingerprint@2.1-service-fpc2.rc
+vendor/lib/com.fingerprints.extension@2.0.so

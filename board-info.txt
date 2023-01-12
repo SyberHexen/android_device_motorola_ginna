@@ -1,1 +1,1 @@
-require board=sdm632|channel
+require board=sdm632|ginna

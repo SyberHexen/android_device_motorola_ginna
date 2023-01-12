@@ -1,5 +1,5 @@
 #
-# vendor props for channel
+# vendor props for ginna
 #
 
 # Audio
@@ -14,7 +14,7 @@ PRODUCT_PROPERTY_OVERRIDES += \
 
 # Sensors
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.hardware.sensors=channel \
+    ro.hardware.sensors=ginna \
     ro.vendor.sensors.amd=false \
     ro.vendor.sensors.facing=false \
     ro.vendor.sensors.glance_approach=false \
