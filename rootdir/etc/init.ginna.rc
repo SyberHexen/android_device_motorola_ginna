@@ -28,6 +28,9 @@ on fs
     wait /dev/block/platform/soc/${ro.boot.bootdevice}
     symlink /dev/block/platform/soc/${ro.boot.bootdevice}/by-name /dev/block/by-name
 
+    wait_for_prop hwservicemanager.ready true
+    start vendor.boot-hal-1-0
+
 service vendor.mmi-touch-sh /vendor/bin/init.mmi.touch.sh
     class late_start
     user root
